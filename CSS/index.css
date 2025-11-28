@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: rgb(32, 32, 32);
+}
+
+/* Barra fina, sin height fijo */
+.navbar-az {
+    background-color: #f9a9a9;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 3vh;
+}
+
+/* Quitar padding lateral del container */
+.navbar-az .container-fluid {
+    padding-left: 0;
+}
+
+/* Quitar márgenes/padding del enlace del logo */
+.navbar-az .navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+/* Tamaño del logo */
+.navbar-az .logo {
+    display: block;
+    height: 15vh;   /* ajusta el tamaño que quieras */
+    width: auto;
+}
+
+main{
+    padding-left:1vw;
+    padding-right:1vw;
+}
+.nav-item{
+    padding-right: 0.3vw;
+}
+
+.nav-link{
+    background-color: rgb(54, 54, 54);
+    border-top: 1px solid white !important;
+    border-right: 1px solid white !important;
+    border-left: 1px solid white !important;
+    color: white;
+}
+
+.active{
+    background-color: rgb(255, 66, 66) !important;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.no-activa{
+    border-bottom: 1px solid white !important;
+}
+
+#contenido-tabs{
+    background-color: white;
+
+}
