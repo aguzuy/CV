@@ -1,31 +1,41 @@
+:root {
+  --color-fondo: white;
+}
+
 body {
     margin: 0;
     background-color: rgb(32, 32, 32);
 }
 
-/* Barra fina, sin height fijo */
-.navbar-az {
-    background-color: #f9a9a9;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 3vh;
+h1{
+    font-size: 6vh;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    padding:0;
+    line-height: 1 !important;
 }
 
-/* Quitar padding lateral del container */
+.navbar-az {
+    background-color: #f9a9a9;
+    margin-bottom: 3vh;
+    align-items: center !important;
+    min-height: 9vh;
+}
+
 .navbar-az .container-fluid {
     padding-left: 0;
 }
 
-/* Quitar márgenes/padding del enlace del logo */
 .navbar-az .navbar-brand {
     padding: 0;
     margin: 0;
 }
 
-/* Tamaño del logo */
 .navbar-az .logo {
     display: block;
-    height: 15vh;   /* ajusta el tamaño que quieras */
+    height: 15vh;   
     width: auto;
 }
 
@@ -57,6 +67,43 @@ main{
 }
 
 #contenido-tabs{
-    background-color: white;
+    background-color: var(--color-fondo);
+}
 
+#contenido-tab-cv{
+    background-color: white;
+    padding-left: 2rem;
+}
+
+.info {
+  display: flex;          
+  align-items: center;    
+  gap: 0.5rem;
+}
+
+.info h6,
+.info p {
+  margin: 0;
+}
+
+#sobre-mi-desc{
+    padding-top: 1rem;
+    font-style: italic;
+}
+
+#tabs-cv{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#contenido-tab-cv{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
