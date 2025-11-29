@@ -150,10 +150,8 @@ main{
 
 .ult-row-izq{
     border-bottom-left-radius: 10px !important;
-    border-bottom: 0;
 }
 
 .ult-row-der{
     border-bottom-right-radius: 10px !important;  
-    border-bottom: 0;
 }
