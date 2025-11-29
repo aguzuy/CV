@@ -290,7 +290,62 @@ document.addEventListener("DOMContentLoaded", () => {
         function mostrarEX() {
             activarTabCV("ex");
             contenedorContenidoCV.innerHTML = `
-                <p>esto es EX</p>
+                <table class="table table-group-divider">
+                <thead>
+                    <tr>
+                        <th scope="col" id="trabajos">Experiencia Laboral</th>
+                        <th scope="col" id="CH-trabajo">Competencias y habilidades adquiridas</th>
+                        <th scope="col" id="eduaciones">Eduacación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <h6 class="trabajo-lugar">Alorica - Call Center</h6>
+                            <p class="posicion-trabajo">Agente de call center</p>
+                            <p class="trab-duracion">2025 Febrero - 2025 Abril</p>
+                        </th>
+                        <td class="desc-trabajo">Atención al cliente en inglés, resolviendo consultas y gestionando incidencias de forma eficiente. 
+                            Desarrollé habilidades de comunicación, empatía y organización bajo presión.</td>
+                        <td>
+                            <h6 class="trabajo-lugar">CEIBAL - Jóvenes a Programar Edición 2025</h6>
+                            <p class="trab-duracion">2025 Marzo - 2025 Diciembre</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">
+                        </th>
+                        <td>
+                        </td>
+                        <td>
+                            <h6 class="trabajo-lugar">UTU LATU - Tecnólogo en Informática</h6>
+                            <p class="trab-duracion">2024 - Actualidad</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">
+                        </th>
+                        <td>
+                        </td>
+                        <td>
+                            <h6 class="trabajo-lugar">UDELAR Facultad de Ingeniería - Ingeniería en Computación (pausado)</h6>
+                            <p class="trab-duracion">2021 - Actualidad</p>
+                        </td>
+                    </tr> 
+
+                    <tr>
+                        <th scope="row" class="ult-row-izq">
+                        </th>
+                        <td>
+                        </td>
+                        <td class="ult-row-der">
+                            <h6 class="trabajo-lugar">Instituto Crandon - Estudios Secundarios - Bachillerato Físico-matemático</h6>
+                            <p class="trab-duracion">2015 - 2020</p>
+                        </td>
+                    </tr> 
+                </tbody>
             `;
         }
 
